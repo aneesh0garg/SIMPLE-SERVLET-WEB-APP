@@ -1,35 +1,34 @@
-###SIMPLE-SERVLET-WEB-APP
+### SIMPLE-SERVLET-WEB-APP
 
 **How to Build & Run**
 
-Install requirements: Java 11+, Maven, and optionally Tomcat or Jetty.
+**1. Install requirements:** Java 11+, Maven, and optionally Tomcat or Jetty.
 
 **Build the project:**
 
-`mvn clean package`
+  `mvn clean package`
 
-This creates a WAR file inside target/.
+  This creates a WAR file inside target/.
 
-Run using Jetty (simplest):
+**3. Run using Jetty (simplest):**
 
 `mvn jetty:run`
 
 Application will be available at:
 `http://localhost:8080/`
 
-Run using Tomcat:
+**4. Run using Tomcat:**
 
-Copy the WAR file: target/simplewebapp-1.0-SNAPSHOT.war → TOMCAT_HOME/webapps/
+ - Copy the WAR file: target/simplewebapp-1.0-SNAPSHOT.war → TOMCAT_HOME/webapps/
 
-Start Tomcat
+ - Start Tomcat
 
-Visit:
-`http://localhost:8080/simplewebapp/`
+ - Visit: http://localhost:8080/simplewebapp/
 
-Endpoints:
+**5. Endpoints:**
 
-Home page: `/`
+ - Home page: `/`
 
-Hello servlet: `/hello`
+ - Hello servlet: `/hello`
 
-User form POST endpoint: `/user`
+ - User form POST endpoint: `/user`
