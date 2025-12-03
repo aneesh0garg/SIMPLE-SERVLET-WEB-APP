@@ -14,8 +14,7 @@
 
 `mvn jetty:run`
 
-Application will be available at:
-`http://localhost:8080/`
+Application will be available at: http://localhost:8080/
 
 **4. Run using Tomcat:**
 
