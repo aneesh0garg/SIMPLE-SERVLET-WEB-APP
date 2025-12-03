@@ -4,7 +4,7 @@
 
 **1. Install requirements:** Java 11+, Maven, and optionally Tomcat or Jetty.
 
-**Build the project:**
+**2. Build the project:**
 
   `mvn clean package`
 
